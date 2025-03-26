@@ -9,5 +9,5 @@ def multiply(a, b):
 
 def divide(a, b):
   if b == 0:
-    raise ValueError("Division by zero is not allowed")
+    raise ValueError("Деление на ноль запрещено")
   return a / b
